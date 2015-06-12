@@ -4,6 +4,7 @@ title: First hugo post
 author: pcdummy
 tags:
   - howto
+  - hugo
 ---
 Today i moved my wordpress blog to hugo, it will allow me to **post faster** use **less resources** and i can **share** my content **on [github](https://github.com/pcdummy/pc-dummy.net)**.
 

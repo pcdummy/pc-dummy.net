@@ -12,10 +12,6 @@ img: /static/author/pcdummy_240x240.png
 ---
 **CAREER SUMMARY ABRIDGED VERSION**
 
-
-**Juli 2015**: JR IT Solutions
-Self employed as software developer and IT Consultant.
-
 **Juni 2013 – Juli 2015**: Stiftung Maria Ebene
 IT and software developer.
 
