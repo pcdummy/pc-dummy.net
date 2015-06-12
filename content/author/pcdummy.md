@@ -12,24 +12,24 @@ img: /static/author/pcdummy_240x240.png
 ---
 **CAREER SUMMARY ABRIDGED VERSION**
 
-**Juni 2013 – Juli 2015**: Stiftung Maria Ebene
+**Juni 2013 – Juli 2015**: [Stiftung Maria Ebene](http://mariaebene.at)
 IT and software developer.
 
-**Oktober 2012 – Mai 2013**: EPOS Computer
+**Oktober 2012 – Mai 2013**: [EPOS Computer](https://www.eposcomputer.com/)
 Außendienst als Apple Service Techniker und Programmierungen.
 
 **Januar 2012 – Juni 2012**: ITC Energy AG
 Weiterentwicklung einer Filemaker Warenwirtschaftslösung.
 Entwicklung eines 2D CAD Tools.
 
-**Oktober 2008 – Dezember 2011**: JR IT Solutions
+**Oktober 2008 – Dezember 2011**: [JR IT Solutions](http://jrit.at)
 Self employed as Software developer and IT Consultant.
 
-**Juli 2007 – September 2008**: EPOS Computer
+**Juli 2007 – September 2008**: [EPOS Computer](https://www.eposcomputer.com/)
 Technischer Außendienst und Programmierungen.
 
-**Juni 2005 – Juli 2007**: Zivildienst + Anstellung Stiftung Maria Ebene
+**Juni 2005 – Juli 2007**: Zivildienst + Anstellung [Stiftung Maria Ebene](http://mariaebene.at)
 IT and software developer.
 
-**Jan 2004 – Mai 2005**: ABF/Landeskrankenhaus Feldkirch
+**Jan 2004 – Mai 2005**: [ABF/Landeskrankenhaus Feldkirch](http://www.lkhf.at/)
 Programmierung von verschiedenen Access Lösungen.

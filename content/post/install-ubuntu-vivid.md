@@ -492,3 +492,14 @@ For "ssh lxd@localhost"
 #### Gimp
 
     sudo apt-get -y install gimp gimp-help-de gimp-plugin-registry
+
+#### Rhythmbox [close on hide](http://askubuntu.com/a/454782)
+
+    pushd .
+    mkdir -p ~/.local/share/rhythmbox/plugins
+    cd ~/.local/share/rhythmbox/plugins
+    git clone https://github.com/fossfreedom/close-on-hide
+    popd
+
+  after close rhythmbox and open it again (real close), then enable
+  the plugin, have fun.
