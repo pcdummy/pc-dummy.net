@@ -2,7 +2,8 @@
 date: 2014-12-15T00:00:00+01:00
 title: Restore lost data with Photorec
 author: pcdummy
-
+tag:
+  - howto
 ---
 
 A friend of mine lost his NTFS Partition (think it was a power outage). As he has some data on it he needs, i tought about restoring it.

@@ -2,7 +2,8 @@
 date: 2014-12-15T00:00:00+01:00
 title: Froxlor + Nginx + WordPress iThemes Rules
 author: pcdummy
-
+tag:
+  - howto
 ---
 A short howto on setting up Wordpress iThemes Security with Froxlor and nginx.
 

@@ -4,10 +4,8 @@ description: Emulate a Hetzner root with mininet.
 tags:
 - hetzner
 - mininet
+- howto
 title: Emulate a Hetzner root with mininet
-topics:
-- Development
-- golang
 ---
 
 I manage some root server from friends at Hetzner, as Hetzner has a &quot;special&quot; setup by blocking unknown Mac Addresses at theier switches, its not that easy to configure that.

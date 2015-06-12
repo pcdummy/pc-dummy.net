@@ -2,7 +2,8 @@
 date: 2013-01-26T00:00:00+01:00
 title: Syscp to Foxlor move on Ubuntu 12.10 with high security.
 author: pcdummy
-
+tag:
+ - howto
 ---
 
 Today i switched our (mine and my uncles) WebServer from
