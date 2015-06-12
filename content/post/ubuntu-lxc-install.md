@@ -166,4 +166,4 @@ For the ```lxc-net``` service you can't use the ```restart``` command, you must 
 
 **Now create your first base image**
 
-[Prepare a minimal lxc image for salt](/docs/ubuntu-lxc-image.md)
+[Prepare a minimal lxc image for salt](/2015/01/25/ubuntu-lxc-image/)
