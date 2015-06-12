@@ -1,6 +1,6 @@
 ---
 date: 2015-01-25T14:00:00+01:00
-title: HOWTO - Prepare a minimal lxc image for salt
+title: Prepare a minimal lxc image for salt
 author: pcdummy
 tags:
   - HOWTO
@@ -8,7 +8,6 @@ tags:
   - BTRFS
   - lxc
 ---
-
 These are basic commands i use to prepare a minimal lxc image for saltstack.<!--more-->
 
 **Login as lxd**

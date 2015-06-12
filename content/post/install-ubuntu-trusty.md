@@ -10,7 +10,6 @@ tags:
   - BTRFS
   - lxc
 ---
-
 This is my own documentation of my installation.
 
 #### Features

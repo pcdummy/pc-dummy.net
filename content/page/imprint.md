@@ -4,7 +4,6 @@ title: Imprint
 author: pcdummy
 
 ---
-
 As this blog is hosted in Germany, it is subject to German media regulations and German media law, the Telemediengesetz (TMG). Please note that your comments have no right to publication on Rene&#39;s blog and might be deleted or shortened by me. All content on this website is subject to German intellectual property law.
 
 More legal information in German:

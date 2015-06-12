@@ -10,7 +10,6 @@ tags:
   - BTRFS
   - lxc
 ---
-
 This is my own documentation of my installation, i assume you have installed
 [Ubuntu Mate 14.10](/2015/04/05/install-ubuntu-trusty/) before.
 

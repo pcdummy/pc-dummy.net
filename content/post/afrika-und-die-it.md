@@ -4,7 +4,6 @@ title: Afrika und die IT (german)
 author: pcdummy
 
 ---
-
 Auf der suche nach Afrika Projekten bin ich auf folgende Webseiten gesto&szlig;en:
 
 #### Computer Projekte:

@@ -7,7 +7,6 @@ tags:
 - howto
 title: Emulate a Hetzner root with mininet
 ---
-
 I manage some root server from friends at Hetzner, as Hetzner has a &quot;special&quot; setup by blocking unknown Mac Addresses at theier switches, its not that easy to configure that.
 
 The last days i played around with [OpenVSwitch](http://openvswitch.org/ "OpenVSwitch") (A Virtual Switch, featuring VLAN&#39;s, OpenFlow, Switch To Switch Tunnels).<!--more-->

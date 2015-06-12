@@ -4,7 +4,6 @@ title: Encrypt your Dropbox (or parts of it) on Linux
 author: pcdummy
 
 ---
-
 #### UPDATE: EncFS is considered to be insecure (see this [Audit](https://defuse.ca/audits/encfs.htm)), i will use eCryptFS instead, see this [manual](https://help.ubuntu.com/community/EncryptedPrivateDirectory). If you still want to use EncFS use [gnome-encfs-manager](http://www.libertyzero.com/GEncfsM/) instead of gnome-encfs below.
 
 I have some sensetive Data on my Laptop i want to sync with other Computers i own, found this [Howto](http://www.makeuseof.com/tag/encrypt-dropbox-data-encfs-linux/ "How To Encrypt Your Dropbox Data With ENCFS [Linux] ") on howto do that. Theres also a Windows &quot;port&quot; of encfs - [safe](http://www.getsafe.org/about "Safe"), didn&#39;t test it tough.<!--more-->

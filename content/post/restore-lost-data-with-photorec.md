@@ -5,7 +5,6 @@ author: pcdummy
 tag:
   - howto
 ---
-
 A friend of mine lost his NTFS Partition (think it was a power outage). As he has some data on it he needs, i tought about restoring it.
 <!--more-->
 Helpful Links:

@@ -5,7 +5,6 @@ author: pcdummy
 tag:
   - howto
 ---
-
 [This](http://portablejim.now.im/tips/95-squidandaptcacherng.html) howto helped me on saving Bandwith at home. :)
 
 I'm using a lot Vagrant boxes, provisioning takes a lot bandwith, with the setup above i have a cache in between. :-)

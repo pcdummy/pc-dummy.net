@@ -5,7 +5,6 @@ author: pcdummy
 tags:
   - howto
 ---
-
 Today i moved my wordpress blog to hugo, it will allow me to **post faster** use **less resources** and i can **share** my content **on [github](https://github.com/pcdummy/pc-dummy.net)**.
 
 I've been using Markdown a lot recently to document my own stuff,

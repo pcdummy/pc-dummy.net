@@ -5,7 +5,6 @@ author: pcdummy
 tag:
  - howto
 ---
-
 Today i switched our (mine and my uncles) WebServer from
 
 - [**SysCP**](http://syscp.org "SysCP") (modified by me), **apache2**, **apache2-mpm-itk**, **libapache2-mod-php5**, **proftpd**
