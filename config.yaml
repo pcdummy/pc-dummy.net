@@ -1,0 +1,60 @@
+baseurl: "http://hugo.pc-dummy.net"
+copyright: "This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0)."
+languageCode: en-us
+MetaDataFormat: yaml
+contentdir: content
+datadir: data
+publishdir: public
+canonifyurls: true
+
+PostFormat: true
+
+blackfriday:
+    Fractions: false
+    Extensions:
+        - noEmptyLineBeforeBlock
+        - hardLineBreak
+
+title: Rene´s blog
+author:
+    name: Rene´ Jochum
+
+permalinks:
+    post: /:year/:month/:day/:filename/
+
+paginate: 10
+paginatepath: page
+
+indexes:
+   category: categories
+   tag: tags
+
+params:
+  ShowTopProfile: true
+  ShowTopSocial: false
+
+  # Settings
+  DateFormat: 2. Jan 2006
+
+  edit_link_url: https://github.com/pcdummy/pc-dummy.net/blob/master/content/
+  description: "Blogging about Programming, Security, Linux, Networking and Web Apps."
+  logo: "/static/author/pcdummy_240x240.png"
+
+  Social:
+      bitbucket: "pcdummy"
+      # gitlab: pcdummy
+      github: pcdummy
+      # flickr: "pcdummy"
+      # twitter: "pcdummy"
+      # facebook: "pcdummy"
+      linkedin: pcdummy
+      email: rene@jochums.at
+      skype: pc-dummy
+
+  Authors:
+    default: pcdummy
+    pcdummy:
+        Name: "Rene´ Jochum"
+        Link: "/author/pcdummy/"
+        Avatar: "/static/author/pcdummy_240x240.png"
+        ShortBio: "Is an <a href=\"https://www.gnu.org/philosophy/free-sw\" target=\"_blank\">FOSS</a> enthusiast who has been programming since he was 12, currently he loves to develop in <a href=\"https://www.python.org/\" target=\"_blank\">Python</a> and <a href=\"http://golang.org/\" target=\"_blank\">Go</a>."

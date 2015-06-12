@@ -1,0 +1,55 @@
+{
+    "settings": {
+        "item": 1,
+        "thumbItem": 5,
+        "slideMargin": 0,
+        "currentPagerPosition": "left",
+        "slideMove":1,
+        "easing": "cubic-bezier(0.25, 0, 0.25, 1)",
+        "speed": 600,
+        "responsive": [
+            {
+                "breakpoint": 800,
+                "settings": {
+                    "item": 3,
+                    "slideMove": 1,
+                    "slideMargin": 6
+                }
+            },
+            {
+                "breakpoint": 480,
+                "settings": {
+                    "item": 2,
+                    "slideMove": 1
+                }
+            }
+        ]
+    },
+    "items": [
+        {
+            "full": "/static/content/post/pc-engines_apu1d4/small/box.jpg",
+            "thumb": "/static/content/post/pc-engines_apu1d4/thumb/box.jpg",
+            "alt": "In the box"
+        },
+        {
+            "full": "/static/content/post/pc-engines_apu1d4/small/unboxed.jpg",
+            "thumb": "/static/content/post/pc-engines_apu1d4/thumb/unboxed.jpg",
+            "alt": "Unboxed"
+        },
+        {
+            "full": "/static/content/post/pc-engines_apu1d4/small/case.jpg",
+            "thumb": "/static/content/post/pc-engines_apu1d4/thumb/case.jpg",
+            "alt": "Case only"
+        },
+        {
+            "full": "/static/content/post/pc-engines_apu1d4/small/case_and_board.jpg",
+            "thumb": "/static/content/post/pc-engines_apu1d4/thumb/case_and_board.jpg",
+            "alt": "Case and board"
+        },
+        {
+            "full": "/static/content/post/pc-engines_apu1d4/small/assembled.jpg",
+            "thumb": "/static/content/post/pc-engines_apu1d4/thumb/assembled.jpg",
+            "alt": "Assembled"
+        }
+    ]
+}
