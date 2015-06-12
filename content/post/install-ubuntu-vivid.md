@@ -3,6 +3,7 @@ date: 2015-06-10T13:00:00+01:00
 title: My installation of Ubuntu Mate 15.04 (Vivid)
 author: pcdummy
 tags:
+  - HOWTO
   - Ubuntu
   - My Installation
   - Crypto root

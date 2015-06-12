@@ -3,6 +3,7 @@ date: 2015-04-05T13:00:00+01:00
 title: My installation of Ubuntu Mate 14.10 (Utopic)
 author: pcdummy
 tags:
+  - HOWTO
   - Ubuntu
   - My Installation
   - Crypto root
