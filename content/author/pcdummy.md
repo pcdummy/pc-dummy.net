@@ -5,6 +5,8 @@ description: Is an FOSS enthusiast who has been programming since 2002, currentl
 address: "Grießstraße 52/17, 6800 Feldkirch, Austria"
 email: rene@jochums.at
 phone: 0043 664 750 77 653
+pgp: 1B0D 3560 3C4F 372D FF0F CA4E 9E8B 1C32 F5F3 18A9
+pgppubfile: /static/author/pcdummy_pub_pgp.asc
 
 img: /static/author/pcdummy_240x240.png
 ---

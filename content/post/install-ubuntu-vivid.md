@@ -488,3 +488,7 @@ For "ssh lxd@localhost"
     sudo mkdir /var/lib/lxd/.ssh/
     sudo cp $HOME/.ssh/workkey.pub /var/lib/lxd/.ssh/authorized_keys
     sudo chown -R lxd:lxd /var/lib/lxd/.ssh/
+
+#### Gimp
+
+    sudo apt-get -y install gimp gimp-help-de gimp-plugin-registry
