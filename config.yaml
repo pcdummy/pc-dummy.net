@@ -57,4 +57,4 @@ params:
         Name: "Rene´ Jochum"
         Link: "/author/pcdummy/"
         Avatar: "/static/author/pcdummy_240x240.png"
-        ShortBio: "Is an <a href=\"https://www.gnu.org/philosophy/free-sw\" target=\"_blank\">FOSS</a> enthusiast who has been programming since he was 12, currently he loves to develop in <a href=\"https://www.python.org/\" target=\"_blank\">Python</a> and <a href=\"http://golang.org/\" target=\"_blank\">Go</a>."
+        ShortBio: "Is an <a href=\"https://www.gnu.org/philosophy/free-sw\" target=\"_blank\">FOSS</a> enthusiast who has been programming since 2002, currently he loves to develop in <a href=\"https://www.python.org/\" target=\"_blank\">Python</a> and <a href=\"http://golang.org/\" target=\"_blank\">Go</a>."

@@ -16,7 +16,7 @@ This is what i came out with:
 
 1.  Downloaded[ TestDisk (with Photorec)](http://www.cgsecurity.org/wiki/TestDisk_Download "TestDisk download")
 2.  Extracted it.
-3.  Made store directory on other disk: $ mkdir /media/&lt;username&gt;/&lt;my_usb_disk&gt;/&lt;friends_name&gt;
+3.  Make a store directory on the other disk: $ mkdir /media/&lt;username&gt;/&lt;my_usb_disk&gt;/&lt;friends_name&gt;
 4.  run it as root: sudo photorec_static /media/&lt;username&gt;/&lt;friends_disk&gt;/the_dd_image_we_made_before.img
 5.  I set it &quot;whole&quot; and &quot;NTFS&quot;, after about 18 Hours it was over that 300GB.
 
