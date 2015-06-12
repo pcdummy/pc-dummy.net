@@ -8,14 +8,14 @@ phone: 0043 664 750 77 653
 
 img: /static/author/pcdummy_240x240.png
 ---
-**BERUFLICHE LAUFBAHN KURZFASSUNG**
+**CAREER SUMMARY ABRIDGED VERSION**
 
 
 **Juli 2015**: JR IT Solutions
-Selbständige Tätigkeit als Softwareentwickler und IT Berater.
+Self employed as software developer and IT Consultant.
 
 **Juni 2013 – Juli 2015**: Stiftung Maria Ebene
-Mitarbeit in der EDV sowie Programmierungen.
+IT and software developer.
 
 **Oktober 2012 – Mai 2013**: EPOS Computer
 Außendienst als Apple Service Techniker und Programmierungen.
@@ -25,13 +25,13 @@ Weiterentwicklung einer Filemaker Warenwirtschaftslösung.
 Entwicklung eines 2D CAD Tools.
 
 **Oktober 2008 – Dezember 2011**: JR IT Solutions
-Selbständige Tätigkeit als Softwareentwickler und IT Berater.
+Self employed as Software developer and IT Consultant.
 
 **Juli 2007 – September 2008**: EPOS Computer
 Technischer Außendienst und Programmierungen.
 
 **Juni 2005 – Juli 2007**: Zivildienst + Anstellung Stiftung Maria Ebene
-IT Support und Softwareentwickler.
+IT and software developer.
 
 **Jan 2004 – Mai 2005**: ABF/Landeskrankenhaus Feldkirch
 Programmierung von verschiedenen Access Lösungen.
