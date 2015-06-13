@@ -13,7 +13,7 @@ img: /static/author/pcdummy_240x240.png
 **CAREER SUMMARY ABRIDGED VERSION**
 
 **Juni 2013 – Juli 2015**: [Stiftung Maria Ebene](http://mariaebene.at)
-IT and software developer.
+Apprenticeship as IT Technican over the [FAB](http://www.fab.at), did a lot of Filemaker developements.
 
 **Oktober 2012 – Mai 2013**: [EPOS Computer](https://www.eposcomputer.com/)
 Außendienst als Apple Service Techniker und Programmierungen.

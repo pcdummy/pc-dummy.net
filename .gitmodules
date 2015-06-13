@@ -4,6 +4,6 @@
 [submodule "vendor/lightGallery"]
 	path = vendor/lightGallery
 	url = https://github.com/sachinchoolur/lightGallery.git
-[submodule "themes/persona"]
-	path = themes/persona
-	url = https://github.com/pcdummy/hugo-theme-persona.git
+[submodule "themes"]
+	path = themes
+	url = https://github.com/spf13/hugoThemes.git
