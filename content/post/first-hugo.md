@@ -5,6 +5,9 @@ author: pcdummy
 tags:
   - howto
   - hugo
+  - atom
+  - markdown
+  - sublime
 ---
 Today i moved my wordpress blog to hugo, it will allow me to **post faster** use **less resources** and i can **share** my content **on [github](https://github.com/pcdummy/pc-dummy.net)**.
 
@@ -25,12 +28,11 @@ now i'm able to just copy it to my blog and publish it.
 
 - On-liner to test trough all themes, **run in your sites root**:
 
-<pre><code class="bash">
-for i in $(find themes/ -maxdepth 2 -iname 'theme.toml'); do \
-    echo -e "\nCurrent Theme: $(expr match "$i" 'themes\/\(.*\)\/theme.toml')\n"; \
-    hugo server --buildDrafts --watch \
-        --theme=$(expr match "$i" 'themes\/\(.*\)\/theme.toml'); \
-done</code></pre>
+    for i in $(find themes/ -maxdepth 2 -iname 'theme.toml'); do \
+        echo -e "\nCurrent Theme: $(expr match "$i" 'themes\/\(.*\)\/theme.toml')\n"; \
+        hugo server --buildDrafts --watch \
+            --theme=$(expr match "$i" 'themes\/\(.*\)\/theme.toml'); \
+    done
 
 #### This blog uses:
 

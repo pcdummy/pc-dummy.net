@@ -1,0 +1,141 @@
+#!/bin/bash
+
+# This script will make a best-effort attempt at showing modifications
+# to package-provided config files on a Debian system.
+#
+# It's subject to some pretty significant limitations: most notably,
+# there's no way to identify all such config files. We approximate the
+# answer by looking first at dpkg-managed conffiles, and then hoping
+# that most of the time, if maintainer scripts are managing files
+# themselves, they're using ucf. So, DO NOT TRUST THIS SCRIPT to find
+# everything... but it should help to find most customisation.
+
+
+# Set this non-empty to see a diff against empty for apparently-deleted
+# files; leave it empty for a single 'file deleted' note.
+diff_empty=
+
+# Space-separated list of directory *trees* to be searched for package
+# files. This is the only means of locating packages that can't be
+# installed by apt. Note that we do a recursive search in here *before*
+# we ask apt to download the package; don't point it at a stupidly-large
+# tree.
+local_packages="/var/cache/puppet"
+
+
+
+package_version() {
+   pkg="$1"
+   dpkg-query -W -f='${Version}\n' "$pkg"
+}
+
+# I've made no attempt to create a sensible overall ordering; we keep
+# files grouped by package within a particular section, then hope that
+# most packages won't mix config file types.
+
+
+#############
+# conffiles
+
+package_file() {
+   pkg="$1"
+
+   exec 3< <(dpkg-query -W -f='${Version} ${Architecture} ${Status}\n' "$pkg")
+   read -u3 version arch status
+
+   if [ "$status" != "install ok installed" -o -z "$version" ]; then
+      # Package isn't actually installed; ignore it.
+      exit 0
+   fi
+
+   basename="${pkg}_${version//:/%3a}_${arch}.deb"
+   filename="/var/cache/apt/archives/$basename"
+
+   if [ -f "$filename" ]; then
+      echo "$filename"
+      exit
+   fi
+
+   found="$(find $local_packages -name "$basename" -print -quit)"
+   if [ -n "$found" ]; then
+      echo "$found"
+      exit
+   fi
+
+   if [ "$UID" -gt 0 ]; then
+      echo "Package ${pkg} (${version}, ${arch}) is not available; need to install, but not root" >&2
+      exit 1
+   fi
+   apt-get -qq --download-only --reinstall install "${pkg}=${version}"
+
+   if [ -f "$filename" ]; then
+      echo "$filename"
+   else
+      echo "Failed to download ${pkg} (${version}, ${arch})" >&2
+      exit 1
+   fi
+}
+
+original_content() {
+   pkg="$1"
+   file="$2"
+
+   deb="$(package_file "$pkg")"
+   if [ "$?" -ne 0 -o -z "$deb" ]; then
+      exit 1
+   fi
+
+   dpkg-deb --fsys-tarfile "$deb" | tar -x -O ".$file"
+}
+
+
+dpkg-query -W -f='${Conffiles}\n' '*' |
+   awk 'OFS="  "{print $2,$1}' |
+   md5sum -c 2>/dev/null |
+   awk -F': ' '$2 !~ /OK/{print $1}' |
+   xargs dpkg -S |
+   sort -u |
+   awk -F ': ' 'OFS=" "{print $1,$2}' |
+   while read pkg file; do
+      if [ ! -f "$file" -a -z "$diff_empty" ]; then
+         echo "Deleted: $file (from $pkg)"
+      else
+         content="$(original_content "$pkg" "$file")"
+         if [ "$?" -eq 0 ]; then
+            echo "package $pkg"
+            diff -u --new-file --report-identical-files --label "$pkg $(package_version "$pkg")" <(echo "$content") "$file"
+         else
+            echo "Failed to load original for $file from $pkg"
+         fi
+      fi
+      echo
+   done
+
+
+#######
+# ucf
+
+md5sum -c /var/lib/ucf/hashfile 2>/dev/null |
+   awk -F': ' '$2 !~ /OK/{print $1}' |
+   xargs ucfq -w |
+   sort -t ':' -k 2,1 | uniq |
+   awk -F: 'OFS=" " {print $1,$2}' |
+   while read file pkg; do
+      if [ ! -f "$file" -a -z "$diff_empty" ]; then
+         echo "Deleted: $file (from ${pkg:-??})"
+      else
+         cache="/var/lib/ucf/cache/${file//\//:}"
+         if [ -f "$cache" ]; then
+            if [ -n "$pkg" ]; then
+               echo "package $pkg"
+               label="$pkg $(package_version "$pkg")"
+            else
+               label="original"
+            fi
+            diff -u --new-file --report-identical-files --label "$label" "$cache" "$file"
+         else
+            echo "Failed to load original for $file from ${pkg:-??}"
+         fi
+      fi
+      echo
+   done
