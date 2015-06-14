@@ -3,7 +3,6 @@ date: 2015-02-08T13:00:00+01:00
 title: First hugo post
 author: pcdummy
 tags:
-  - howto
   - hugo
   - atom
   - markdown
