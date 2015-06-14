@@ -6,4 +6,4 @@
 	url = https://github.com/sachinchoolur/lightGallery.git
 [submodule "themes"]
 	path = themes
-	url = https://github.com/spf13/hugoThemes.git
+	url = https://github.com/pcdummy/hugoThemes.git
