@@ -21,6 +21,7 @@ author:
 
 permalinks:
     post: /:year/:month/:day/:filename/
+    page: /:filename/
 
 paginate: 10
 paginatepath: page

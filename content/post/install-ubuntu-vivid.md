@@ -249,16 +249,15 @@ Nice howto on that from [davebehnke.com](http://davebehnke.com/python-pyenv-ubun
 
 #### Tranmission Remote (for my apu1d4 :) )
 
-	sudo apt-get -y install transmission-remote-gtk
+	  sudo apt-get -y install transmission-remote-gtk
 
 #### PHP Dev
 
-  sudo apt-get -y install php5-cli php5-pear php-dev php-apc
+    sudo apt-get -y install php5-cli php5-pear php-dev php-apc
 
 #### Java Web start (for Cisco ASDM)
 
-  sudo apt-get -y install icedtea-7-plugin
-
+    sudo apt-get -y install icedtea-7-plugin
 
 #### Citrix Receiver
 
