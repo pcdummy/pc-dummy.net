@@ -8,7 +8,7 @@ tags:
   - Apt
 ---
 Since some time i use [diff-configs.sh](https://gist.github.com/matthewd/1254787) to
-show all my manual config changes, its very nice to transfer them.
+show all my manual config changes, its very nice to transfer them.<!--more-->
 
 #### Installation
 
