@@ -384,7 +384,7 @@ Connect the newly created "Account":
 
 #### Misc
 
-    sudo apt-get -y install sshfs unrar screen pwgen whois
+    sudo apt-get -y install sshfs unrar screen pwgen whois uuid
 
 #### LXC (Linux Container)
 
