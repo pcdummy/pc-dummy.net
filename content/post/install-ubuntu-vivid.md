@@ -502,3 +502,7 @@ For "ssh lxd@localhost"
 
   after close rhythmbox and open it again (real close), then enable
   the plugin, have fun.
+
+#### DNS [.local fix](http://www.hexblot.com/blog/resolving-local-domains-linux)
+
+At my employer we use a .local Domain, the above link shows you how to fix it.
