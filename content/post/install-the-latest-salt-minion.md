@@ -13,3 +13,4 @@ tags:
     sudo add-apt-repository -y ppa:saltstack/salt
     sudo apt-get update
     sudo apt-get -qy install salt-minion
+<!--more-->
