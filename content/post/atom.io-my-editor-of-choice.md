@@ -17,17 +17,15 @@ So far theres no debugger for Go and Atom.io.
 
     sudo add-apt-repository -y ppa:webupd8team/atom
     sudo apt-get update
-    sudo apt-get -y install atom
+    sudo apt-get -y install atom nodejs git
     apm install project-manager
     apm install linter # https:// atom.io/packages/linter
     apm install monokai
-    apm install autocomplete-plus
     apm install git-control
     apm install merge-conflicts
     apm install clipboard-history
     apm install minimap
     apm install minimap-git-diff
-    apm install go-to-line
 
 #### Go (golang) [autocomplete](https:// atom.io/packages/go-plus)
 
@@ -42,6 +40,7 @@ So far theres no debugger for Go and Atom.io.
 
 #### Python Flake8 linter for atom, i'm using the python3 variant as i develop for python 3.x
 
+    sudo apt-get -y install python3-pip
     sudo pip3 install flake8
     apm install linter-flake8
 
@@ -53,10 +52,9 @@ So far theres no debugger for Go and Atom.io.
 #### Python import sorter
 [isort](https://github.com/timothycrosley/isort) and [python-isort](https://atom.io/packages/python-isort)
 
-    sudo pip install isort
+    sudo pip3 install isort
     apm install python-isort
 
 #### Navigator :)
 
-    apm install autocomplete-plus
     apm install atom-ctags
