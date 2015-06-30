@@ -8,7 +8,8 @@ tags:
   - BTRFS
   - lxc
 ---
-These are basic commands i use to prepare a minimal lxc image for saltstack.<!--more-->
+These are basic commands i use to prepare a minimal lxc image for saltstack.
+This requires the howto [Install lxc and prepare it for a unprivileged user](/2015/01/25/ubuntu-lxc-install/)<!--more-->
 
 **Login as lxd**
 

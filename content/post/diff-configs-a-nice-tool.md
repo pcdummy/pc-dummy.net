@@ -1,5 +1,5 @@
 ---
-date: 2015-07-14T21:00:00+01:00
+date: 2015-06-14T21:00:00+01:00
 title: Diff-configs.sh a nice tool to get your configuration changes
 author: pcdummy
 tags:

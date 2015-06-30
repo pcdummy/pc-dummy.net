@@ -1,5 +1,5 @@
 ---
-date: 2015-07-14T21:09:00+01:00
+date: 2015-06-14T21:09:00+01:00
 title: Atom.io my editor of choice
 author: pcdummy
 tags:

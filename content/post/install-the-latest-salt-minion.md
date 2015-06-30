@@ -1,5 +1,5 @@
 ---
-date: 2015-07-14T22:54:00+01:00
+date: 2015-06-14T22:54:00+01:00
 title: Install the latest salt-minion
 author: pcdummy
 tags:
