@@ -8,6 +8,8 @@ tags:
   - BTRFS
   - lxc
 ---
+**UPDATE: LXD is now stable, i'll blog about it soon**
+
 Very good to read [Official LXC 1.0 Howtos](https://www.stgraber.org/2013/12/20/lxc-1-0-blog-post-series/)!
 
 This howto is based on: [LXC 1.0: Unprivileged containers [7/10]](https://www.stgraber.org/2014/01/17/lxc-1-0-unprivileged-containers/)
