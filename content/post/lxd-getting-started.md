@@ -52,6 +52,14 @@ Show the log if the above failed:
 
     lxc info trusty64 --show-log
 
+Attach a shell on it:
+
+    lxc exec trusty64 /bin/bash
+
+Delete the container you made:
+
+    lxc delete trusty64
+
 #### On your own box/client
 
 Install lxd-client
@@ -67,6 +75,24 @@ Add a remote for the server you just configured:
 See if the remote works:
 
     lxc list <your-server-here>:
+
+#### Create a image from a container (publish it)
+
+You need to delete the image first if you already have one with one of that aliases:
+
+    lxc delete <server>:ubuntu/trusty/amd64
+
+Now publish your container (make it available as image):
+
+    lxc publish <server>:<container> <server>: --alias ubuntu/trusty -- alias ubuntu/trusty/amd64
+
+Delete the image container if needed:
+
+    lxc delete <server>:trusty64
+
+Launch a new container from the image you created:
+
+    lxc launch <server>:ubuntu/trusty <server>:<your-new-container-name>
 
 Usefull Links:
 - [LXD README.md](https://github.com/lxc/lxd#machine-setup)
