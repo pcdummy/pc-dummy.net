@@ -11,11 +11,13 @@ tags:
 ---
 This is what i do to install and configure lxd.<!--more-->
 
+#### Install and configure it on the container host
+
 Install **lxd**:
 
     sudo apt-add-repository -y ppa:ubuntu-lxc/stable
     sudo apt-get update
-    sudo apt-get install lxd
+    sudo apt-get install lxd lxd-client
 
 Give root one subuid and subgid:
 
@@ -32,7 +34,7 @@ Restart **lxd**:
 
 Set the remote authentication password:
 
-    lxc config set core.trust_password &lt;your-password-here&gt;
+    lxc config set core.trust_password <your-password-here>
 
 Change the default profile network interface:
 
@@ -40,7 +42,7 @@ Change the default profile network interface:
 
 Create an image:
 
-    lxd-images import lxc ubuntu trusty amd64 --alias trusty64 --alias ubuntu/trusty/amd64
+    lxd-images import lxc ubuntu trusty amd64 --alias trusty64 --alias ubuntu/trusty --alias ubuntu/trusty/amd64
 
 Create the container "trusty64" from the image "ubuntu/trusty/amd64" you just made:
 
@@ -49,6 +51,22 @@ Create the container "trusty64" from the image "ubuntu/trusty/amd64" you just ma
 Show the log if the above failed:
 
     lxc info trusty64 --show-log
+
+#### On your own box/client
+
+Install lxd-client
+
+    sudo apt-add-repository -y ppa:ubuntu-lxc/stable
+    sudo apt-get update
+    sudo apt-get install lxd-client
+
+Add a remote for the server you just configured:
+
+    lxc remote add <your-server-here> https://<your-server-fqdn-here>:8443 --accept-certificate # enter the password you've set above here.
+
+See if the remote works:
+
+    lxc list <your-server-here>:
 
 Usefull Links:
 - [LXD README.md](https://github.com/lxc/lxd#machine-setup)
