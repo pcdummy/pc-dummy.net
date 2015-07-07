@@ -161,9 +161,9 @@ Speed :)
 
 #### Gnome-encfs-manager
 
-	sudo add-apt-repository -y ppa:gencfsm/ppa
-	sudo apt-get update
-	sudo apt-get -y install gnome-encfs-manager
+  	sudo add-apt-repository -y ppa:gencfsm/ppa
+  	sudo apt-get update
+  	sudo apt-get -y install gnome-encfs-manager
 
 #### [Atom](https://atom.io/) text editor
 [He](http://www.atomtips.com/atom-editor-vs-sublime-text/) explains my reasons to switch to Atom from Sublime quiet good
@@ -174,18 +174,27 @@ Speed :)
 
 #### Geany text editor
 
-sudo aptitude install 'geany-plugins' geany-plugin-py geany-plugin-treebrowser geany-plugin-vc
+    sudo aptitude install 'geany-plugins' geany-plugin-py geany-plugin-treebrowser geany-plugin-vc
 
 #### Evernote on Linux
 
-funktioniert nicht
-.    sudo add-apt-repository -y ppa:vincent-c/nevernote
-.    sudo apt-get update
-.    sudo apt-get -y install nixnote
+Isn't working!
+
+     sudo add-apt-repository -y ppa:vincent-c/nevernote
+     sudo apt-get update
+     sudo apt-get -y install nixnote
+
+I've made my own package witch works on 15.04:
+
+    pushd .
+    cd ~/Downloads
+    wget http://rene.jochums.at/downloads/nixnote2-2.0-beta3_amd64.deb
+    sudo dpkg -i nixnote2-2.0-beta3_amd64.deb; sudo apt-get install -y -f
+    popd
 
 #### Virtual development environment
 
-	sudo add-apt-repository -y ppa:jacob/virtualisation
+	  sudo add-apt-repository -y ppa:jacob/virtualisation
     sudo add-apt-repository -y ppa:ubuntu-lxc/lxc-stable
     sudo apt-get -y install libvirt-bin virt-manager qemu qemu-kvm qemu-system spice-client python-spice-client-gtk bridge-utils ebtables virt-top
     sudo apt-get -y install lxc cgmanager uidmap lxc-templates
@@ -216,7 +225,10 @@ Nice howto on that from [davebehnke.com](http://davebehnke.com/python-pyenv-ubun
 
     sudo apt-get -y install python3-pip python3-dev python3-wheel python-tox python3-nose python3-coverage make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm
 
-   sudo add-apt-repository -y ppa:ytvwld/syncthing
+
+#### [Syncthing](https://syncthing.net/)
+
+    sudo add-apt-repository -y ppa:ytvwld/syncthing
     sudo add-apt-repository -y ppa:nilarimogard/webupd8
     sudo apt-get update
     sudo apt-get -y install syncthing syncthing-gtk
