@@ -9,7 +9,7 @@ tags:
   - lxc
   - lxd
 ---
-This is what i do to install and configure lxd.
+This is what i do to install and configure lxd.<!--more-->
 
 Install **lxd**:
 
