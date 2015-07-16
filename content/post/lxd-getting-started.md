@@ -21,12 +21,12 @@ Install **lxd**:
 
 Give root one subuid and subgid:
 
-    sudo usermod --add-subuids 1000000-165536 root
-    sudo usermod --add-subgids 1000000-165536 root
+    sudo usermod --add-subuids 100000-165536 root
+    sudo usermod --add-subgids 100000-165536 root
 
 OR give root 99 subuid's/subgid's:
 
-    for i in {100..199}; do sudo usermod --add-subuids ${i}00000-${i}65536 root; sudo usermod --add-subgids ${i}00000-${i}65536 root; done # This takes a while
+    for i in {1..99}; do sudo usermod --add-subuids ${i}00000-${i}65536 root; sudo usermod --add-subgids ${i}00000-${i}65536 root; done # This takes a while
 
 Restart **lxd**:
 
@@ -84,7 +84,7 @@ You need to delete the image first if you already have one with one of that alia
 
 Now publish your container (make it available as image):
 
-    lxc publish <server>:<container> <server>: --alias ubuntu/trusty -- alias ubuntu/trusty/amd64
+    lxc publish <server>:<container> <server>: --alias ubuntu/trusty --alias ubuntu/trusty/amd64
 
 Delete the image container if needed:
 
@@ -94,6 +94,16 @@ Launch a new container from the image you created:
 
     lxc launch <server>:ubuntu/trusty <server>:<your-new-container-name>
 
+You can also do:
+
+    lxc init <server>:ubuntu/trusty <server>:<your-new-container-name>
+    lxc start <server>:<your-new-container-name>
+
+Start a shell in the new container:
+
+    lxc exec srv01:<new-container-name> /bin/bash
+
 Usefull Links:
 - [LXD README.md](https://github.com/lxc/lxd#machine-setup)
 - [LXD CMD specs](https://github.com/lxc/lxd/blob/master/specs/command-line-user-experience.md)
+- [LXD config specs (all configuration variables)](https://github.com/lxc/lxd/blob/master/specs/configuration.md)
