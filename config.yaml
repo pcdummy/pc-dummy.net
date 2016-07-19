@@ -19,7 +19,8 @@ author:
     name: Rene´ Jochum
 
 permalinks:
-    post: /:year/:month/:day/:filename/
+#    post: /:year/:month/:day/:filename/
+    post: /:filename/
     page: /:filename/
 
 paginate: 10
@@ -57,4 +58,4 @@ params:
         Name: "Rene´ Jochum"
         Link: "/author/pcdummy/"
         Avatar: "/static/author/pcdummy_240x240.png"
-        ShortBio: "Is an <a href=\"https://www.gnu.org/philosophy/free-sw\" target=\"_blank\">FOSS</a> enthusiast who has been programming since 2002, currently he loves to develop in <a href=\"https://www.python.org/\" target=\"_blank\">Python</a> and <a href=\"http://golang.org/\" target=\"_blank\">Go</a>."
+        ShortBio: "Is an <a href=\"https://www.gnu.org/philosophy/free-sw\" target=\"_blank\">FOSS</a> enthusiast who has been programming since <a href=\"http://www.vbarchiv.net/tipps/details.php?id=676\" target=\"_blank\">2002</a>, currently he loves to develop in <a href=\"https://www.python.org/\" target=\"_blank\">Python</a> and <a href=\"http://golang.org/\" target=\"_blank\">Go</a>."

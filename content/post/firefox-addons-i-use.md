@@ -1,6 +1,6 @@
 ---
 date: 2015-06-14T19:42:00+01:00
-title: Firefox Addons i use.
+title: Firefox Addons i use
 author: pcdummy
 tags:
   - Firefox Addons

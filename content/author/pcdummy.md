@@ -10,26 +10,76 @@ pgppubfile: /static/author/pcdummy_pub_pgp.asc
 
 img: /static/author/pcdummy_240x240.png
 ---
-**CAREER SUMMARY ABRIDGED VERSION**
+## About me
 
-**Juni 2013 – Juli 2015**: [Stiftung Maria Ebene](http://mariaebene.at)
+I love to work with Linux, i love Networking i love Programming. If i can FOSS first. Currently my main interest is Cloud computing (in smaller scales :/).
+
+### Knowledge
+
+Programming Languages (in order of preference):
+
+Language      | Years of Knowledge
+--------------|-------------------------------------------------------------------------
+Python        |      [5+](https://github.com/pcdummy/socketrpc)
+Go            |      [4+](https://github.com/pcdummy/golxml)
+C++ (with Qt) |      [5+](https://github.com/pcdummy/Warzone-QML-Frontend)
+PHP           |      12+
+Javascript    |      13+
+Visual Basic  |      [14+](http://www.vbarchiv.net/tipps/details.php?id=680)
+VB.NET        |      6+
+C#            |      [3+](https://github.com/pcdummy/SharpFlame)
+
+Operating Systems: Linux, OS-X, Windows
+
+Languages: German (first language), English (not perfect)
+
+### OpenSource Activities
+
+#### 2016 - current: [saltstack-lxd-formula](https://github.com/pcdummy/saltstack-lxd-formula)
+Working on automatic deployed LXD containers - You say **you want** a Website - **you get** a container with a website in it and ofc all its routing and stuff.
+
+#### 2015 - current: [LXD](https://linuxcontainers.org/lxd/)
+Smaller stuff
+Intodruced the new [Storage API](https://github.com/lxc/lxd/commits?author=pcdummy) for BTRFS and big parts of the LVM version.
+
+#### 2009 - current: IRC
+In german theres a wording "Girl for everything" - i help where i can.
+
+#### 2010 - 2015: [Warzone 2100](http://www.wz2100.net/)
+Hosting maintenance of the website
+Intodruced the [buildbot](http://buildbot.wz2100.net/)
+Introduced a new [Lobby Server](https://github.com/pcdummy/wzlobbyserver-ng) in Python
+
+#### 2002 - ca. 2006: [Apachefriends](https://www.apachefriends.org) XAMPP
+Smaller scripts, Moderation in the forums and smaller work.
+
+#### 2002: vb@rchiv
+[.m3u reader](http://www.vbarchiv.net/tipps/details.php?id=680)
+[ID3v2 Tag reader](http://www.vbarchiv.net/tipps/details.php?id=676)
+
+### CAREER SUMMARY
+
+#### August 2015 - current: [Webmeisterei](https://webmeisterei.com)
+Working as Plone developer.
+
+#### Juni 2013 – Juli 2015: [Stiftung Maria Ebene](http://mariaebene.at)
 Apprenticeship as IT Technican over the [FAB](http://www.fab.at), did a lot of Filemaker developements.
 
-**Oktober 2012 – Mai 2013**: [EPOS Computer](https://www.eposcomputer.com/)
-Außendienst als Apple Service Techniker und Programmierungen.
+#### Oktober 2012 – Mai 2013: [EPOS Computer](https://www.eposcomputer.com/)
+Technical field service as Apple Service Technican and programming.
 
-**Januar 2012 – Juni 2012**: ITC Energy AG
-Weiterentwicklung einer Filemaker Warenwirtschaftslösung.
-Entwicklung eines 2D CAD Tools.
+#### Januar 2012 – Juni 2012: ITC Energy AG
+Filemaker Development of a ERP.
+HTML5 2D CAD Tool
 
-**Oktober 2008 – Dezember 2011**: [JR IT Solutions](http://jrit.at)
+#### Oktober 2008 – Dezember 2011: [JR IT Solutions](http://jrit.at)
 Self employed as Software developer and IT Consultant.
 
-**Juli 2007 – September 2008**: [EPOS Computer](https://www.eposcomputer.com/)
-Technischer Außendienst und Programmierungen.
+#### Juli 2007 – September 2008: [EPOS Computer](https://www.eposcomputer.com/)
+Technical field service as Apple Service Technican and programming.
 
-**Juni 2005 – Juli 2007**: Zivildienst + Anstellung [Stiftung Maria Ebene](http://mariaebene.at)
+#### Juni 2005 – Juli 2007: Zivildienst + Anstellung [Stiftung Maria Ebene](http://mariaebene.at)
 IT and software developer.
 
-**Jan 2004 – Mai 2005**: [ABF/Landeskrankenhaus Feldkirch](http://www.lkhf.at/)
-Programmierung von verschiedenen Access Lösungen.
+#### Jan 2004 – Mai 2005: [ABF/Landeskrankenhaus Feldkirch](http://www.lkhf.at/)
+Development of MS Access Databases.

@@ -1,13 +1,14 @@
 ---
 date: 2015-07-07T13:00:00+01:00
+description: This is what i do to install and configure lxd
 title: LXD getting started
 author: pcdummy
 tags:
   - HOWTO
   - Ubuntu
   - BTRFS
-  - lxc
-  - lxd
+  - LXC
+  - LXD
 ---
 This is what i do to install and configure lxd.<!--more-->
 
@@ -104,6 +105,7 @@ Start a shell in the new container:
     lxc exec srv01:<new-container-name> /bin/bash
 
 Usefull Links:
+
 - [LXD README.md](https://github.com/lxc/lxd#machine-setup)
 - [LXD CMD specs](https://github.com/lxc/lxd/blob/master/specs/command-line-user-experience.md)
 - [LXD config specs (all configuration variables)](https://github.com/lxc/lxd/blob/master/specs/configuration.md)
