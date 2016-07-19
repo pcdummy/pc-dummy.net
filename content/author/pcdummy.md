@@ -39,16 +39,16 @@ Languages: German (first language), English (not perfect)
 Working on automatic deployed LXD containers - You say **you want** a Website - **you get** a container with a website in it and ofc all its routing and stuff.
 
 #### 2015 - current: [LXD](https://linuxcontainers.org/lxd/)
-Smaller stuff
+Smaller stuff.
 Intodruced the new [Storage API](https://github.com/lxc/lxd/commits?author=pcdummy) for BTRFS and big parts of the LVM version.
 
 #### 2009 - current: IRC
 In german theres a wording "Girl for everything" - i help where i can.
 
 #### 2010 - 2015: [Warzone 2100](http://www.wz2100.net/)
-Hosting maintenance of the website
-Intodruced the [buildbot](http://buildbot.wz2100.net/)
-Introduced a new [Lobby Server](https://github.com/pcdummy/wzlobbyserver-ng) in Python
+Hosting maintenance of the website.
+Intodruced the [buildbot](http://buildbot.wz2100.net/).
+Introduced a new [Lobby Server](https://github.com/pcdummy/wzlobbyserver-ng) in Python.
 
 #### 2002 - ca. 2006: [Apachefriends](https://www.apachefriends.org) XAMPP
 Smaller scripts, Moderation in the forums and smaller work.
@@ -62,24 +62,24 @@ Smaller scripts, Moderation in the forums and smaller work.
 #### August 2015 - current: [Webmeisterei](https://webmeisterei.com)
 Working as Plone developer.
 
-#### Juni 2013 – Juli 2015: [Stiftung Maria Ebene](http://mariaebene.at)
+#### June 2013 – July 2015: [Stiftung Maria Ebene](http://mariaebene.at)
 Apprenticeship as IT Technican over the [FAB](http://www.fab.at), did a lot of Filemaker developements.
 
-#### Oktober 2012 – Mai 2013: [EPOS Computer](https://www.eposcomputer.com/)
+#### October 2012 – May 2013: [EPOS Computer](https://www.eposcomputer.com/)
 Technical field service as Apple Service Technican and programming.
 
-#### Januar 2012 – Juni 2012: ITC Energy AG
+#### Januar 2012 – June 2012: ITC Energy AG
 Filemaker Development of a ERP.
-HTML5 2D CAD Tool
+HTML5 2D CAD Tool.
 
-#### Oktober 2008 – Dezember 2011: [JR IT Solutions](http://jrit.at)
+#### Oktober 2008 – December 2011: [JR IT Solutions](http://jrit.at)
 Self employed as Software developer and IT Consultant.
 
-#### Juli 2007 – September 2008: [EPOS Computer](https://www.eposcomputer.com/)
+#### July 2007 – September 2008: [EPOS Computer](https://www.eposcomputer.com/)
 Technical field service as Apple Service Technican and programming.
 
-#### Juni 2005 – Juli 2007: Zivildienst + Anstellung [Stiftung Maria Ebene](http://mariaebene.at)
+#### June 2005 – July 2007: Community service + Employment [Stiftung Maria Ebene](http://mariaebene.at)
 IT and software developer.
 
-#### Jan 2004 – Mai 2005: [ABF/Landeskrankenhaus Feldkirch](http://www.lkhf.at/)
+#### Jan 2004 – May 2005: [ABF/Landeskrankenhaus Feldkirch](http://www.lkhf.at/)
 Development of MS Access Databases.
