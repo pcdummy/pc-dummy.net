@@ -12,7 +12,7 @@ img: /static/author/pcdummy_240x240.png
 ---
 ## About me
 
-I love to work with Linux, i love Networking i love Programming. If i can FOSS first. Currently my main interest is Cloud computing (in smaller scales :/).
+I love to work with Linux, i love Networking i love Programming. If i can FOSS first. Currently my main interest is Cloud computing.
 
 ### Knowledge
 
@@ -46,7 +46,7 @@ Intodruced the new [Storage API](https://github.com/lxc/lxd/commits?author=pcdum
 In german theres a wording "Girl for everything" - i help where i can.
 
 #### 2010 - 2015: [Warzone 2100](http://www.wz2100.net/)
-Hosting maintenance of the website.
+Hosting and maintenance of the website.
 Intodruced the [buildbot](http://buildbot.wz2100.net/).
 Introduced a new [Lobby Server](https://github.com/pcdummy/wzlobbyserver-ng) in Python.
 
