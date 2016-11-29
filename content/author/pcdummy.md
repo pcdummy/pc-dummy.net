@@ -12,7 +12,7 @@ img: /static/author/pcdummy_240x240.png
 ---
 ## About me
 
-I love to work with Linux, i love Networking i love Programming. If i can FOSS first. Currently my main interest is Cloud computing.
+I love to work with Linux, I love Networking I love Programming. If I can FOSS first. Currently my main interest is Cloud computing.
 
 ### Knowledge
 
@@ -43,7 +43,7 @@ Smaller stuff.
 Intodruced the new [Storage API](https://github.com/lxc/lxd/commits?author=pcdummy) for BTRFS and big parts of the LVM version.
 
 #### 2009 - current: IRC
-In german theres a wording "Girl for everything" - i help where i can.
+In german theres a wording "Girl for everything" - I help where i can.
 
 #### 2010 - 2015: [Warzone 2100](http://www.wz2100.net/)
 Hosting and maintenance of the website.
@@ -59,8 +59,11 @@ Smaller scripts, Moderation in the forums and smaller work.
 
 ### CAREER SUMMARY
 
-#### August 2015 - current: [Webmeisterei](https://webmeisterei.com)
-Working as Plone developer.
+#### November 2016 – current: [Stiftung Maria Ebene](http://mariaebene.at)
+Developing interfaces between Apps (SAP / Filemaker / ELGA uvm.)
+
+#### August 2015 – October 2016: [Webmeisterei](https://webmeisterei.com)
+Worked as Plone developer.
 
 #### June 2013 – July 2015: [Stiftung Maria Ebene](http://mariaebene.at)
 Apprenticeship as IT Technican over the [FAB](http://www.fab.at), did a lot of Filemaker developements.
