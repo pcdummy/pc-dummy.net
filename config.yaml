@@ -15,9 +15,9 @@ blackfriday:
         - noEmptyLineBeforeBlock
         - hardLineBreak
 
-title: Rene´s blog
+title: René´s blog
 author:
-    name: Rene´ Jochum
+    name: René Jochum
 
 permalinks:
 #    post: /:year/:month/:day/:filename/
@@ -56,7 +56,7 @@ params:
   Authors:
     default: pcdummy
     pcdummy:
-        Name: "Rene´ Jochum"
+        Name: "René Jochum"
         Link: "/author/pcdummy/"
         Avatar: "/static/author/pcdummy_240x240.png"
         ShortBio: "Is an <a href=\"https://www.gnu.org/philosophy/free-sw\" target=\"_blank\">FOSS</a> enthusiast who has been programming since <a href=\"http://www.vbarchiv.net/tipps/details.php?id=676\" target=\"_blank\">2002</a>, currently he loves to develop in <a href=\"https://www.python.org/\" target=\"_blank\">Python</a> and <a href=\"http://golang.org/\" target=\"_blank\">Go</a>."

@@ -20,14 +20,14 @@ Programming Languages (in order of preference):
 
 Language      | Years of Knowledge
 --------------|-------------------------------------------------------------------------
-Python        |      [7+](https://github.com/pcdummy/socketrpc)
-Go            |      [6+](https://github.com/pcdummy/golxml)
-C++ (with Qt) |      [7+](https://github.com/pcdummy/Warzone-QML-Frontend)
-PHP           |      14+
-Javascript    |      15+
-Visual Basic  |      [16+](http://www.vbarchiv.net/tipps/details.php?id=680)
-VB.NET        |      8+
-C#            |      [5+](https://github.com/pcdummy/SharpFlame)
+Python        |      [6+](https://github.com/pcdummy/socketrpc)
+Go            |      [5+](https://github.com/pcdummy/golxml)
+C++ (with Qt) |      [6+](https://github.com/pcdummy/Warzone-QML-Frontend)
+PHP           |      13+
+Javascript    |      14+
+Visual Basic  |      [15+](http://www.vbarchiv.net/tipps/details.php?id=680)
+VB.NET        |      7+
+C#            |      [4+](https://github.com/pcdummy/SharpFlame)
 
 Operating Systems: Linux, OS-X, Windows
 
