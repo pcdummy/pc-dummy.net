@@ -2,7 +2,7 @@
 date: 2014-04-12T00:00:00+01:00
 title: Rene´ Jochum
 description: Is an FOSS enthusiast who has been programming since 2002, currently he loves to develop in Python and Go.
-address: "Grießstraße 52/17, 6800 Feldkirch, Austria"
+address: "Illstraße 73, 6800 Feldkirch, Austria"
 email: rene@jochums.at
 phone: 0043 664 750 77 653
 pgp: 1B0D 3560 3C4F 372D FF0F CA4E 9E8B 1C32 F5F3 18A9
@@ -20,22 +20,25 @@ Programming Languages (in order of preference):
 
 Language      | Years of Knowledge
 --------------|-------------------------------------------------------------------------
-Python        |      [5+](https://github.com/pcdummy/socketrpc)
-Go            |      [4+](https://github.com/pcdummy/golxml)
-C++ (with Qt) |      [5+](https://github.com/pcdummy/Warzone-QML-Frontend)
-PHP           |      12+
-Javascript    |      13+
-Visual Basic  |      [14+](http://www.vbarchiv.net/tipps/details.php?id=680)
-VB.NET        |      6+
-C#            |      [3+](https://github.com/pcdummy/SharpFlame)
+Python        |      [7+](https://github.com/pcdummy/socketrpc)
+Go            |      [6+](https://github.com/pcdummy/golxml)
+C++ (with Qt) |      [7+](https://github.com/pcdummy/Warzone-QML-Frontend)
+PHP           |      14+
+Javascript    |      15+
+Visual Basic  |      [16+](http://www.vbarchiv.net/tipps/details.php?id=680)
+VB.NET        |      8+
+C#            |      [5+](https://github.com/pcdummy/SharpFlame)
 
 Operating Systems: Linux, OS-X, Windows
 
-Languages: German (first language), English (not perfect)
+Languages: German (first language), English (fluent but not perfect)
 
 ### OpenSource Activities
 
-#### 2016 - current: [saltstack-lxd-formula](https://github.com/pcdummy/saltstack-lxd-formula)
+#### 2016 [Presentation at the Linuxday Vorarlberg (German)](https://www.youtube.com/watch?v=0WIyYOsSvQw)
+I hold a presentation about Saltstack at the Linuxday Vorarlberg. 
+
+#### 2016 - 2017: [saltstack-lxd-formula](https://github.com/pcdummy/saltstack-lxd-formula)
 Working on automatic deployed LXD containers - You say **you want** a Website - **you get** a container with a website in it and ofc all its routing and stuff.
 
 #### 2015 - current: [LXD](https://linuxcontainers.org/lxd/)
@@ -43,7 +46,7 @@ Smaller stuff.
 Intodruced the new [Storage API](https://github.com/lxc/lxd/commits?author=pcdummy) for BTRFS and big parts of the LVM version.
 
 #### 2009 - current: IRC
-In german theres a wording "Girl for everything" - I help where i can.
+In german theres a wording "Girl for everything" - I help where I can.
 
 #### 2010 - 2015: [Warzone 2100](http://www.wz2100.net/)
 Hosting and maintenance of the website.
@@ -59,8 +62,13 @@ Smaller scripts, Moderation in the forums and smaller work.
 
 ### CAREER SUMMARY
 
-#### November 2016 – current: [Stiftung Maria Ebene](http://mariaebene.at)
-Developing interfaces between Apps (SAP / Filemaker / ELGA uvm.)
+#### February 2017 - current: 
+Sick leave.
+
+#### November 2016 – February 2017: [Stiftung Maria Ebene](http://mariaebene.at)
+Developing interfaces between Apps (SAP / Filemaker / ELGA uvm.).
+
+- [py-restfmclient](https://github.com/pcdummy/py-restfmclient) python client library for Filemaker over [RESTfm](http://restfm.com)
 
 #### August 2015 – October 2016: [Webmeisterei](https://webmeisterei.com)
 Worked as Plone developer.
