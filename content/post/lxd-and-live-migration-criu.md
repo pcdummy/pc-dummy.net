@@ -1,6 +1,6 @@
 ---
 date: 2016-12-02T07:32:00+01:00
-title: LXD and live migration / Canoncial needs support for CRIU
+title: LXD and live migration / Canonical needs support for CRIU
 author: pcdummy
 tags:
   - LXD
@@ -25,10 +25,10 @@ Some of the main features of LXD are:
   - Support for bind mounts and mounting block devices into containers
   - On ZFS and BTRFS containers take only a little space
 
-Nice features, not? But there's a catch, Canoncial isn't supporting the live Migration work anymore:
+Nice features, not? But there's a catch, Canonical isn't supporting the live Migration work anymore:
 
-![Canoncial CRIU Support](/static/content/post/lxd-and-live-migration-criu/canoncial-criu-support.png)
+![Canonical CRIU Support](/static/content/post/lxd-and-live-migration-criu/canoncial-criu-support.png)
 
-Please tell Canoncial that you need LXD live migrations if your a paying customer of canoncial or if you get one!
+Please tell Canonical that you need LXD live migrations if your a paying customer of Canonical or if you get one!
 
 P.s.: XEN, KVM, Virtualbox and VMWare is ofc more secure than containers, we should compare it to Docker, OpenVZ, Virtuozzo and FreeBSD jail.
