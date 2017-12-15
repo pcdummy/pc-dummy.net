@@ -1,6 +1,6 @@
 ---
 date: 2014-04-12T00:00:00+01:00
-title: Rene´ Jochum
+title: René Jochum
 description: Is an FOSS enthusiast who has been programming since 2002, currently he loves to develop in Python and Go.
 address: "Illstraße 73, 6800 Feldkirch, Austria"
 email: rene@jochums.at
