@@ -36,7 +36,7 @@ Languages: German (first language), English (fluent but not perfect)
 ### OpenSource Activities
 
 #### 2016 [Presentation at the Linuxday Vorarlberg (German)](https://www.youtube.com/watch?v=0WIyYOsSvQw)
-I hold a presentation about Saltstack at the Linuxday Vorarlberg. 
+I hold a presentation about Saltstack at the Linuxday Vorarlberg.
 
 #### 2016 - 2017: [saltstack-lxd-formula](https://github.com/pcdummy/saltstack-lxd-formula)
 Working on automatic deployed LXD containers - You say **you want** a Website - **you get** a container with a website in it and ofc all its routing and stuff.
@@ -62,10 +62,7 @@ Smaller scripts, Moderation in the forums and smaller work.
 
 ### CAREER SUMMARY
 
-#### February 2017 - current: 
-Sick leave.
-
-#### November 2016 – February 2017: [Stiftung Maria Ebene](http://mariaebene.at)
+#### November 2016 – current: [Stiftung Maria Ebene](http://mariaebene.at)
 Developing interfaces between Apps (SAP / Filemaker / ELGA uvm.).
 
 - [py-restfmclient](https://github.com/pcdummy/py-restfmclient) python client library for Filemaker over [RESTfm](http://restfm.com)
