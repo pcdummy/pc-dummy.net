@@ -38,7 +38,7 @@ params:
   # Settings
   DateFormat: 2. Jan 2006
 
-  edit_link_url: https://github.com/pcdummy/pc-dummy.net/blob/master/content/
+  edit_link_url: https://git.lxch.eu/pcdummy/pc-dummy-net/blob/master/content/
   description: "Blogging about Programming, Security, Linux, Networking and Web Apps."
   logo: "/static/author/pcdummy_240x240.png"
 
